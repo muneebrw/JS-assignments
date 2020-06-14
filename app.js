@@ -862,19 +862,147 @@
 //     []
 // ]
 
-// task 2
+// // task 2
 
-var ar
-ar = [
-    [0,1,2,3],
-    [1,0,1,2],
-    [2,1,0,1]
-]
-for(i = 0; i < 3; i++)
-{
-    for(j = 0; j <= 3; j++)
-    {
-        document.write(ar[i][j] + " ")
-    }
-    document.write('<br>')
-}
+// var ar
+// ar = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ]
+// for(i = 0; i < 3; i++)
+// {
+//     for(j = 0; j <= 3; j++)
+//     {
+//         document.write(ar[i][j] + " ")
+//     }
+//     document.write('<br>')
+// }
+
+// // task 3
+
+// for(var i = 1; i<=10; i++)
+// {
+//     document.write("<br>" + i)
+// }
+
+// // task 4
+
+// var len, num
+// num = +prompt("enter number of which you want table ")
+// len = +prompt("enter length of table ")
+// for(i = 1; i <= len ; i++)
+// {
+//     document.write("<br>" + num + " x " + i + " = " + num*i)   
+// }
+
+// // task 5
+
+// var fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
+// for(i = 0; i < fruits.length; i++)
+// {
+//     document.write("<br>" + fruits[i])
+// }
+
+//     document.write("<br>")
+
+// for(i = 0; i < fruits.length; i++)
+// {
+//     document.write("<br>Element at index " + i + " is " + fruits[i])
+// }
+
+// // task 6
+
+// document.write("<br>Counting: <br><br>")
+// for(i = 1; i <= 15; i++)
+// {
+//     document.write(i + ", ")   
+// }
+
+// document.write("<br><br>Reverse Counting: <br><br>")
+// for(i = 10; i >= 1; i--)
+// {
+//     document.write(i + ", ")   
+// }
+
+// document.write("<br><br>Even: <br><br>")
+// for(i = 0; i <= 20; i++)
+// {
+//     if(i%2==0)
+//     document.write(i + ", ")   
+// }
+
+// document.write("<br><br>Odd: <br><br>")
+// for(i = 0; i <= 20; i++)
+// {
+//     if(i%2!=0)
+//     document.write(i + ", ")   
+// }
+
+// document.write("<br><br>Series: <br><br>")
+// for(i = 2; i <= 20; i++)
+// {
+//     if(i%2==0)
+//     document.write(i + "k, ")   
+// }
+
+// // task 7
+
+// var a,b,i, m = 'no'
+// a = ["cake", "apple pie", "cookie", "chips", "patties"]
+// b = prompt("search your item ")
+// for(i = 0; i < a.length; i++)
+// {
+//     if(a[i] == b)
+//     {
+//         m = 'yes'
+//         document.write("<br>" + b + " is available at index " + i + " in our bakery")
+//         break
+//     }
+    
+// }
+// if(m === 'no')
+// document.write("<br>sorry! " + b + " is not available in our bakery")
+        
+// // task 8
+
+// var A, max, i, j
+// A = [24, 53, 78, 91, 12]
+// for(i=0; i<A.length; i++)
+// {
+//     for(j = i+1; j < A.length; j++ )
+//     {
+//         if(A[i] < A[j] || max < A[j])
+//         {
+//             max = A[j]
+//         }
+//     }
+// }    
+//     document.write("<br>Array items: " + A) 
+//     document.write("<br>Largest number: " + max)
+
+// // task 9
+
+// var A, min, i, j
+// A = [24, 53, 78, 91, 12]
+// for(i=0; i<A.length; i++)
+// {
+//     for(j = i+1; j < A.length; j++ )
+//     {
+//         if(A[i] > A[j] || min > A[j])
+//         {
+//             min = A[j]
+//         }
+//     }
+// }   
+//     document.write("<br>Array items: " + A) 
+//     document.write("<br>Smallest number: " + min)
+
+// // task 10
+
+// var n = 5
+// for(i = 1; i <= 20; i++)
+// {
+//     a = n*i
+//     document.write(a + ", ")
+// }
