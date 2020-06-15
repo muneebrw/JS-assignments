@@ -318,22 +318,64 @@
 // var c = prompt("Enter 3rd subject name")
 // var eachMarks = 100
 // var t = eachMarks * 3
-// var obt1 = prompt("Enter 1st subject obtained marks")
-// var obt2 = prompt("Enter 2nd subject obtained marks")
-// var obt3 = prompt("Enter 3rd subject obtained marks")
+// var obt1 = +prompt("Enter 1st subject obtained marks")
+// var obt2 = +prompt("Enter 2nd subject obtained marks")
+// var obt3 = +prompt("Enter 3rd subject obtained marks")
 // var tObt = obt1 + obt2 + obt3
 // var per1 = (obt1/eachMarks) * 100, per2 = (obt2/eachMarks) * 100, per3 = (obt3/eachMarks) * 100
 // var per = (tObt/t) * 100
 
-// // document.write("<br> <b> Subject </b> <br> " + a + "<br>" + b + "<br>" + c)
-// // document.write("<b> Total Marks </b> <br> " + eachMarks + "<br>" + eachMarks + "<br>" + eachMarks + "<br>    " + t )
-// // document.write("<b> Obtained Marks </b> <br> " + obt1 + "<br>" + obt2 + "<br>" + obt3 + "<br>    " + tObt)
-// // document.write("<b> Percentage </b> <br> " + per1 + "<br>" + per2 + "<br>" + per3 + "<br>    " + per)
 
-// document.write("<tr> <th> Subject </th> <th> Total Marks </th> <th> Obtained Marks </th> <th> Percentage </th> ")
-// document.write("<br> <tr> <td>" + a + "</td>" + "<td>           g" + eachMarks + "</td>" + "<td>" + obt1 + "</td>" + "<td>" + per1 + "</td></tr>")
+// document.write("<br><table>")
+// document.write("<tr>")
 
-// ***** user input & conditional statement *****
+// document.write("<th>Subject</th>")
+// document.write("<th>Total Marks</th>")
+// document.write("<th>Obtained Marks</th>")
+// document.write("<th>Percentage</th>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<td>" + a + "</td>")
+// document.write("<td>" + eachMarks + "</td>")
+// document.write("<td>" + obt1 + "</td>")
+// document.write("<td>" + per1 + "</td>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<td>" + b + "</td>")
+// document.write("<td>" + eachMarks + "</td>")
+// document.write("<td>" + obt2 + "</td>")
+// document.write("<td>" + per2 + "</td>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<td>" + c + "</td>")
+// document.write("<td>" + eachMarks + "</td>")
+// document.write("<td>" + obt3 + "</td>")
+// document.write("<td>" + per3 + "</td>")
+
+// document.write("</tr>")
+
+// document.write("<tr>")
+
+// document.write("<th></th>")
+// document.write("<th>" + t + "</th>")
+// document.write("<th>" + tObt + "</th>")
+// document.write("<th>" + per + "%</th>")
+
+// document.write("</tr>")
+
+// document.write("<br></table>")
+
+
+// // ***** user input & conditional statement *****
 
 // // task 1
 
